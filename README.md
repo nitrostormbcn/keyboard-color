@@ -1,6 +1,11 @@
 # keyboard-color
  Put your wallpaper in your keyboard!
- Use the windows slideshow as a background image and change the lighting of your keyboard dinamically.
+ Use the windows slideshow as a background image and change the lighting of your keyboard dynamically.
+
+# Requirements
+ Windows 10
+ SteelSeries GG
+ A SteelSeries compatible keyboard with individually addressable LED
  
 # How to install
  1. Download the repository
