@@ -3,9 +3,9 @@
  Use the windows slideshow as a background image and change the lighting of your keyboard dynamically.
 
 # Requirements
- Windows 10
- SteelSeries GG
- A SteelSeries compatible keyboard with individually addressable LED
+ - Windows 10
+ - SteelSeries GG
+ - A SteelSeries compatible keyboard with individually addressable LED
  
 # How to install
  1. Download the repository
