@@ -22,9 +22,13 @@ def get_server_address():
 
 
 def get_wallpaper_dir():
-    _wallpaper_folder = os.getenv('AppData') + '/Microsoft/Windows/Themes/CachedFiles/'
-    _wallpaper_name = os.listdir(_wallpaper_folder)[0]
-    return _wallpaper_folder + '/' + _wallpaper_name
+    try:
+        _wallpaper_folder = os.getenv('AppData') + '/Microsoft/Windows/Themes/CachedFiles/'
+        _wallpaper_name = os.listdir(_wallpaper_folder)[0]
+        return _wallpaper_folder + '/' + _wallpaper_name
+    except:
+        wallpaper = os.getenv('AppData') + '/Microsoft/Windows/Themes/TranscodedWallpaper'
+        return wallpaper
 
 
 def compute_keyboard_ilum():
