@@ -73,10 +73,12 @@ def compute_keyboard_ilum():
     #
     # plt.figure(2)
     # plt.imshow(img)
+    #
+    # plt.show()
 
     cached_image = img
 
-    pix = numpy.array(img).reshape([132, 3])
+    pix = numpy.array(img.convert('RGB')).reshape([132, 3])
     color_array = pix.tolist()
 
     payload_2 = {
@@ -94,8 +96,6 @@ def compute_keyboard_ilum():
 
     requests.post('http://' + server_address + '/game_event', json=payload_2)
     # print_response(r)
-
-    # plt.show()
 
 
 cached_image = None
