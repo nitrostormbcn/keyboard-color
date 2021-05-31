@@ -14,4 +14,5 @@
 ```
 C:\Users\YOUR_USER_HERE\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 ```
- 4. Restart and tada! 
+ 4. Make sure to turn off other keyboard lighting effects from the SteelSeries Engine.
+ 5. Restart and tada! 
