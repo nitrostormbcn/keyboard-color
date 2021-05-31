@@ -1,6 +1,9 @@
 # keyboard-color
  Put your wallpaper in your keyboard!
  Use the windows slideshow as a background image and change the lighting of your keyboard dynamically.
+ 
+[![Link to video](https://img.youtube.com/vi/fhtCAjCwM4Y/0.jpg)](https://www.youtube.com/watch?v=fhtCAjCwM4Y)
+
 
 # Requirements
  - Windows 10
