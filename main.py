@@ -65,7 +65,10 @@ def compute_keyboard_ilum():
         requests.post('http://' + server_address + '/bind_game_event', json=payload_1)
         # print_response(r)
 
-    img_full = Image.open(wallpaper_dir)
+    try:
+        img_full = Image.open(wallpaper_dir)
+    except:
+        return
     img = img_full.resize((22, 6), Image.NEAREST)
 
     # plt.figure(1)
