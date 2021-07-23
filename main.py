@@ -62,7 +62,10 @@ def compute_keyboard_ilum():
                 }
             ]
         }
-        requests.post('http://' + server_address + '/bind_game_event', json=payload_1)
+        try:
+            requests.post('http://' + server_address + '/bind_game_event', json=payload_1)
+        except:
+            return
         # print_response(r)
 
     try:
